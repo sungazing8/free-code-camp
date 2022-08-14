@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotACatPhotoApp</title>
+</head>
+<body>
+    <h1>Not a CatPhotoApp</h1>
+    <main>
+      <section>
+        <h2>Not Cat Photos</h2>
+     
+        <p>Click here to view more <a target="_blank" href="./cat-photos.html">cat photos</a>.</p>
+        <a href="./cat-photos.html"><img src="./img/cat-taxidermy20.jpg"  width ="300" height ="300" alt="A cute orange cat climbing a tree."></a>
+      </section>
+      <section>
+        <h2>Not Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>themselves</li>
+          <li>killing baby animals</li>
+          <li>shitting in peoples gardens</li>
+        </ul>
+        <figure>
+          <img src="./img/download.jpeg" "alt="A cheeky wanker cat shitting in someones garden.">
+          <figcaption>Cats <em>love</em> shitting in gardens.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>people</li>
+          <li>other cats</li>
+          <li>awesome dogs</li>
+        </ol>
+        <figure>
+          <img src="./img/download (1).jpeg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> Awesome dogs.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat a lazy fuckwad, or an arrogant shithouse?</legend>
+            <label><input id="lazy fuckwad" type="radio" name="lazy-arrogant" value="lazy fuckwad" checked> Lazy Fuckwad</label>
+            <label><input id="arrogant shithouse" type="radio" name="lazy-arrogant" value="arrogant shithouse"> Arrogant Shithouse</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="murderous" type="checkbox" name="personality" value="murderous" checked> <label for="murderous">Murderous</label>
+            <input id="vengeful" type="checkbox" name="personality" value="vengeful"> <label for="vengeful">Vengeful</label>
+            <input id="apathetic" type="checkbox" name="personality" value="apathetic"> <label for="apathetic">Apathetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
