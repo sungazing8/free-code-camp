@@ -7,8 +7,8 @@ in order to pass the test, a number of requirements had to be met as per the ins
 
 it took me three attempts from scratch to get it to meet the parameters given, and for the final attempt 
 i used chrome dev tools to get a better idea of how the page was laid out (using divs for instance, as opposed to 
-fieldsets as in my original attempts) and i also copy pasted the css for the image in the body, and to get the
-opacity settings the same in the form and body. apart from that, almost all of the rest of page was written out 
+fieldsets as in my original attempts). I also copy/pasted the css for the image in the body, and to get the
+opacity settings the same in the form and body. Apart from that, almost all of the rest of page was written out 
 from scratch. 
 
 I have learned a few things along the way, such as a better understanding of selectors, and a better understanding
